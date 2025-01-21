@@ -6,7 +6,7 @@ export default function Home() {
      <iframe
         src="https://vulcan-uat.dev.intouch.capillarytech.com/api-ext-airlines-client-merge/ui/" // Replace with the external domain
         title="External Application"
-        style={{ width: '100%', height: '100%', border: 'none' }}
+        style={{ height:'90vh', marginTop:'450px', width: '100%', border: 'none' }}
         allowFullScreen
       ></iframe>
     </div>
