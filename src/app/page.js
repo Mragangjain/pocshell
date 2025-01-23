@@ -5,6 +5,7 @@ import { useEffect } from "react";
 export default function Home() {
 
   useEffect(() => {
+    console.log('Hello from Vulcan!');
     // Listener to receive messages from the iframe
     const handleMessage = (event) => {
       const allowedOrigin = 'https://vulcan-uat.dev.intouch.capillarytech.com'; // Update with iframe origin
