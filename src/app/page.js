@@ -31,7 +31,6 @@ export default function Home() {
     // Cleanup listener on component unmount
     return () => {
       window.removeEventListener('message', handleMessage);
-      console.log("testing")
     };
   }, []);
 
